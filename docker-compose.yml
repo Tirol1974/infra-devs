@@ -1,4 +1,5 @@
-nginx:
+services:
+  nginx:
     container_name: infra-nginx
     image: nginx:alpine
     restart: always
